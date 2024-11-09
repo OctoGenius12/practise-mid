@@ -1,0 +1,70 @@
+
+body {
+    font-family: 'Font1', sans-serif;
+    background-color: rgb(182, 110, 182);
+    text-align: center;
+}
+.b11{
+    background-color:white;
+    text-align: end;
+    border-image: round;
+}
+
+.p2{
+    display:flex;
+   
+
+}
+h1, h2 {
+    font-family: 'Font2', serif;
+    text-align: center;
+    text-shadow: #d5a7a7;
+}
+img{
+    width:450px;
+    height: 250px;
+}
+header, footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #555;
+    
+}
+
+.homepage-content {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+/* Grid for Products Page */
+.products-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+}
+
+.product-item {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Contact Page */
+.contact-form {
+    max-width: 500px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
